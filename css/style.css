@@ -1,0 +1,50 @@
+* {
+    font-weight: 300;
+}
+p {
+    margin: 0px;
+}
+.main-container {
+    /* padding: 0px 60px; */
+    width: 90%;
+    margin: auto;
+}
+.good-font p {
+    font-size: 22px;
+}
+.container-fluid .five-images img {
+    width: 100%;
+}
+.container-fluid .five-images {
+    display: flex;
+    justify-content: center;
+}
+.first-modal .dropdown-main .dropdown-heading {
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown-btn-arrow .btn {
+    background: grey;
+    color: white;
+    border-radius: 20px;
+    padding: 0px 25px;
+}
+.dropdown-heading  {
+    padding: 10px 0px;
+}
+.dropdown-para {
+    padding: 10px 0px;
+}
+.performance .numeric {
+    font-size: 30px;
+}
+.score .pagination li.active a {
+    background: #F38820;
+    border: none;
+}
+.score .pagination li a {
+    background: grey;
+    color: white;
+    margin-right: 3px;
+    border: none;
+}
