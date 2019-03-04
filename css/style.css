@@ -19,6 +19,10 @@ p {
     display: flex;
     justify-content: center;
 }
+.first-modal {
+    padding: 10px 20px;
+
+}
 .first-modal .dropdown-main .dropdown-heading {
     display: flex;
     justify-content: space-between;
@@ -38,6 +42,10 @@ p {
 .performance .numeric {
     font-size: 30px;
 }
+.score .pagination {
+    display: flex;
+    justify-content: center;
+}
 .score .pagination li.active a {
     background: #F38820;
     border: none;
@@ -48,3 +56,87 @@ p {
     margin-right: 3px;
     border: none;
 }
+.fourth-block .pie-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.block {
+    margin: 25px 25px 0 0;
+    background: white;
+    border-radius: 3px; 
+    width: 200px;
+    overflow: hidden;
+}
+.dount-chart-block {
+    overflow: hidden;
+}
+.donut-chart {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 2em auto;
+    border-radius: 100%;
+}
+.donut-chart .center {
+    background: white;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 70px;
+}
+.clip {
+    border-radius: 10%;
+    clip: rect(0px, 100px, 100px, 50px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.item {
+    border-radius: 50%;
+  clip: rect(0px, 50px, 100px, 0px);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+#section1 {
+    transform: rotate(0deg);
+  }
+  
+  #section1 .item {
+    background-color: #E64C65;
+    transform: rotate(76deg);
+  }
+  
+  #section2 {
+    transform: rotate(76deg);
+  }
+  
+  #section2 .item {
+    background-color: #11A8AB;
+    transform: rotate(140deg);
+  }
+  
+  #section3 {
+    transform: rotate(215deg);
+  }
+  
+  #section3 .item {
+    background-color: #4FC4F6;
+    transform: rotate(113deg);
+  }
+
+
+
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}  
