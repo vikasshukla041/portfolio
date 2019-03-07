@@ -12,16 +12,27 @@ p {
 .good-font p {
     font-size: 22px;
 }
-.container-fluid .five-images img {
+/* .container-fluid .five-images img {
     width: 100%;
-}
+} */
 .container-fluid .five-images {
     display: flex;
     justify-content: center;
+    position: relative;
 }
+.container-fluid .five-images img {
+    width: 100%;
+}
+.container-fluid .five-images > div {
+    height: 230px;
+    width: 100%;
+    overflow: hidden;
+}
+.container-fluid .five-images > div:hover {
+    height: 100%;
+} 
 .first-modal {
     padding: 10px 20px;
-
 }
 .first-modal .dropdown-main .dropdown-heading {
     display: flex;
@@ -58,17 +69,35 @@ p {
 }
 .fourth-block .pie-heading {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+}
+.fourth-block .pie-chart {
+    display: flex;
+    justify-content: space-around;
+}
+.fourth-block .pie-chart .chart-info {
+    padding-top: 40px;
+    width: 295px;
+}
+.chart-info ul {
+    list-style-type: none;
+}
+.fourth-block .pie-chart .chart-info ul li::before {
+    content: "\25AA";
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    list-style-type: square;
 }
 
 
-.block {
+/* .block {
     margin: 25px 25px 0 0;
     background: white;
     border-radius: 3px; 
     width: 200px;
     overflow: hidden;
-}
+} */
 .dount-chart-block {
     overflow: hidden;
 }
